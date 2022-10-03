@@ -1,0 +1,179 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/*--navbar---*/
+
+nav.a.nav-link{
+  font-weight:500;
+  letter-spacing: 0.6px;
+
+  cursor:pointer;
+}
+.navbar-nav > li >  a {
+  color:rgb(22, 22, 22);
+  background-color: #2e7285;
+}
+
+
+
+
+/*--navbar---*/
+.header-wrapper{
+  position:relative;
+  background-color: #2e7285;
+  background-size:cover;
+  height:25vh
+  
+}
+.main-info{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  text-align:center;
+  
+}
+.main-info h1 {
+  color:white
+}
+
+
+
+
+img{
+  width:300px;
+  height:300px;
+}
+
+
+
+/*--aboutme---*/
+.profile-img{
+  width:325px;
+  height:325px;
+  border-radius: 50%;
+
+  padding: 0.2rem;
+  border:1px solid 
+  }
+
+  
+  
+  
+  
+  
+  /*--portfolio---*/
+  .portfolio-wrapper {
+    background: #2e7285;
+    padding: 3rem 0;
+   }
+   .portfolio-image {
+  height:16 rem;
+   border:1px solid black;
+   padding: 0 0.5rem;
+   }
+   .portfolio-image-box {
+    position: relative;
+    margin: 1rem;
+    }
+    /*--overflow---*/
+
+    .overflow {
+      position:absolute;
+      opacity: 0;
+      background:black;
+      width: 20rem;
+      height: 20rem;
+      top: 0;
+      border:1px solid rgb(227, 23, 23);
+      cursor: pointer;
+      
+    }
+
+    .portfolio-image-box:hover .overflow{
+opacity: 10%;
+transition: .3s ease-in-out;
+    }
+
+
+    portfolio-image-popupbox{
+      width:45rem;
+      padding:0 0.5rem;
+    }
+
+    /*---CONTACT---*/
+
+
+    .myForm{
+      background:#2e7285;
+      font-size: 25px;
+    }
+   .github{
+    font-weight: bolder;
+    color:white;
+    font-size: medium;
+   }
+   .linkedin{
+    font-weight: bolder;
+    color:white;
+    font-size: medium;
+   }
+   .footer{
+    background-color:#2e7285
+    
+   }
+   .phone{
+    font-weight: bold;
+    color:white;
+    font-size: medium;
+   }
+   .email{
+    font-weight: bold;
+    color:white;
+    font-size: small;
+   }
