@@ -3,7 +3,7 @@ import React from "react"
 function Contact
 () {
 
-    return (
+     (
         <div id = "Contact" className="myForm">
             <form id="email-form" action="https://formspress.io/xknqqwdl" method="POST">
                 <div className="form-group">
@@ -20,7 +20,7 @@ function Contact
             </form>
             <center><button type="submit" className="btn btn-secondary btn-sm" id="submit">SUBMIT</button></center>
             <p id="form-status"></p>
-        </div>
+        </div>  
     )
 }
 

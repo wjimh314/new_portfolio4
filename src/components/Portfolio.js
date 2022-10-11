@@ -21,8 +21,7 @@ const Portfolio = () => {
 					alt="foodFREQs..."
 				/>
 				<p>
-					The main goal of this project was to use all of our knowledge from
-					module one and two in order to make a full front end and backend app.
+				
 					We decided to make an application for people strongly influenced by
 					the culinary world. Using this application, the user will be able to
 					create a profile, search recipes they want to cook frequently, save
@@ -50,6 +49,46 @@ const Portfolio = () => {
 		fadeInSpeed: 500,
 	};
 
+	//theBlackBook
+	
+	const openPopupboxDevelophub = () => {
+		const content = (
+			<>
+				<img
+					className="portfolio-image-popupbox"
+					src={Develophub}
+					alt="Develophub"
+				/>
+				<p>
+				We created an application to give prospective developers a handy resource to connect with other established developers and maintain an index of code snippets, terminology, and concepts to quickly reference. user will create a profile and be able to add comments to a selection of various basic topics. we will also give them a way to create their own snippets that other users can leave comments on.			</p>
+				<b>Heroku:</b>{" "}
+				<a
+					className="hyper-link"
+					onClick={() =>
+						window.open("https://floating-refuge-15851.herokuapp.com/")
+					}
+				>
+					https://floating-refuge-15851.herokuapp.com/
+				</a>
+			</>
+		);
+		PopupboxManager.open({ content });
+		PopupboxManager.update({});
+	};
+
+	const popupboxConfigDevelophub = {
+		titleBar: {
+			enable: true,
+			text: "Develophub",
+		},
+		fadeIn: true,
+		fadeInSpeed: 500,
+	};
+	
+	
+	
+	
+	
 	//gitthatcurrency
 	const openPopupboxgitThatCurrency = () => {
 		const content = (
@@ -99,7 +138,7 @@ const Portfolio = () => {
 			<>
 				<img className="portfolio-image-popupbox" src={JATE} alt="JATE" />
 				<p>
-				Our task in this project is to build a text editor that runs in the browser. This app will be a single page application that meets all of the PWA criteria. This will also include the option to operate offline if need be
+				Our task in this project was to build a text editor that runs in the browser. This is a single page application that meets all of the PWA criteria. This will also include the option to operate offline if need be
 				</p>
 				<b>GitHub:</b>{" "}
 				<a
@@ -164,82 +203,30 @@ const Portfolio = () => {
 
 	// noteTaker
 
-	const openPopupboxnoteTaker = () => {
-		const content = (
-			<>
-				<img
-					className="portfolio-image-popupbox"
-					src={noteTaker}
-					alt="noteTaker"
-				/>
-				<p>
-				The goal of this project was to build a simple note taker with javascript
-				</p>
-				<b>GitHub:</b>{" "}
-				<a
-					className="hyper-link"
-					onClick={() => window.open("https://github.com/wjimh314/notetaker1")}
-				>
-					https://github.com/wjimh314/notetaker1
-				</a>
-			</>
-		);
-		PopupboxManager.open({ content });
-		PopupboxManager.update({});
-	};
-
-	const popupboxConfignoteTaker = {
-		titleBar: {
-			enable: true,
-			text: "noteTaker",
-		},
-		fadeIn: true,
-		fadeInSpeed: 500,
-	};
-
+	
 	//passwordGenerator
 
-
-	const openPopupboxDevelophub = () => {
-		const content = (
-			<>
-				<img
-					className="portfolio-image-popupbox"
-					src={Develophub}
-					alt="Develophub"
-				/>
-				<p>
-				The goal of this project was to make a small app that will be a quick reference to keep your coding skills sharp	
-				</p>
-				<b>Heroku:</b>{" "}
-				<a
-					className="hyper-link"
-					onClick={() =>
-						window.open("https://floating-refuge-15851.herokuapp.com/")
-					}
-				>
-					https://floating-refuge-15851.herokuapp.com/
-				</a>
-			</>
-		);
-		PopupboxManager.open({ content });
-		PopupboxManager.update({});
-	};
-
-	const popupboxConfigDevelophub = {
-		titleBar: {
-			enable: true,
-			text: "Develophub",
-		},
-		fadeIn: true,
-		fadeInSpeed: 500,
-	};
+	
 
 	return (
 		<div id="Portfolio"className="portfolio-wrapper">
 			<div className="container">
 				<h1 className="text-uppercase text-center py-5"> portfolio </h1>{" "}
 				<div className="image-box-wrapper row justify-content-center">
+					
+				<div
+						className="portfolio-image-box "
+						onClick={openPopupboxDevelophub}
+					>
+						<img
+							className="portfolio-image"
+							src={Develophub}
+							alt="Develophub"
+						/>
+						<div className="overflow"> </div>
+					</div>
+					
+					
 					<div className="portfolio-image-box" onClick={openPopupboxfoodFREQs}>
 						<img className="portfolio-image" src={foodFREQs} alt="foodFREQs" />
 						<div className="overflow"> </div>
@@ -258,39 +245,14 @@ const Portfolio = () => {
 					<div className="portfolio-image-box" onClick={openPopupboxJATE}>
 						<img className="portfolio-image" src={JATE} alt="JATE" />
 					</div>
-					<div
-						className="portfolio-image-box"
-						onClick={openPopupboxjavascriptTest}
-					>
-						<img
-							className="portfolio-image"
-							src={javascriptTest}
-							alt="javascriptTest"
-						/>
-						<div className="overflow"> </div>
-					</div>
-					<div className="portfolio-image-box" onClick={openPopupboxnoteTaker}>
-						<img className="portfolio-image" src={noteTaker} alt="noteTaker" />
-						<div className="overflow"> </div>
-					</div>
-					<div
-						className="portfolio-image-box "
-						onClick={openPopupboxDevelophub}
-					>
-						<img
-							className="portfolio-image"
-							src={Develophub}
-							alt="Develophub"
-						/>
-						<div className="overflow"> </div>
-					</div>{" "}
+				
+					
+					
 				</div>{" "}
 			</div>{" "}
 			<PopupboxContainer {...popupboxConfigfoodFREQs} />
 			<PopupboxContainer {...popupboxConfiggitThatCurrency} />
 			<PopupboxContainer {...popupboxConfigJATE} />
-			<PopupboxContainer {...popupboxConfigjavascriptTest} />
-			<PopupboxContainer {...popupboxConfignoteTaker} />
 			<PopupboxContainer {...popupboxConfigDevelophub} />
 		</div>
 	);
