@@ -21,7 +21,7 @@ const Resume
     <div className='timeline-content'>
     <h3>2021</h3>
     <p>HVAC-R Field Service Tech</p>
-    <a href="https://docs.google.com/document/d/1AG6WVVVgwVRTCnMkjul7WOQo6Ek7wHNGqslH-ZmtEvU/edit">See my full resume here!</a>
+    <a href="https://docs.google.com/document/d/1CuP1ufeEkAp49pa-ANFMX_H_Rvq_5YTe/edit">See my full resume here!</a>
      </div>
     </div>
    </div>
