@@ -19,7 +19,7 @@ const Portfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={TheBlackBook} alt="TheBlackBox." />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
+       <p> We created an application to give prospective developers a handy resource to connect with other established developers and maintain an index of code snippets, terminology, and concepts to quickly reference. user will create a profile and be able to add comments to a selection of various basic topics. we will also give them a way to create their own snippets that other users can leave comments on.			</p>
         <b>Heroku:</b> <a className="hyper-link" onClick={() => window.open("https://floating-refuge-15851.herokuapp.com/")}>https://floating-refuge-15851.herokuapp.com/</a>
       </>
     )
@@ -66,7 +66,13 @@ const Portfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={gitThatCurrency} alt="Portfolio Project..." />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
+        <p>The goal of the project was to use IP API that can pull the user's
+					current IP address and allow the user to access different country
+					options through a dropdown menu. This information will then allow the
+					user to be able to convert a certain amount of money to the currency
+					that the country of their choosing uses on the website. DISCLAIMER: It
+					will not actually convert the user's money, but simply determine how
+					much the user's money would be worth in a specific country.</p>
         
         <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/wjimh314/GitThatCurrency", "_blank")}>https://github.com/wjimh314/GitThatCurrency</a>
       </>
