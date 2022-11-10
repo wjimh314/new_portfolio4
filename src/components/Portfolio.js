@@ -1,5 +1,5 @@
 import React  from "react";
-import TheBlackBook from "/Users/williamhart/Desktop/portfolio4/new_portfolio4/src/components/images/TheBlackBook.png";
+import TheBlackBook from "/Users/williamhart/Desktop/finalresume/new_portfolio4/src/components/images/TheBlackBook.png";
 import FoodFREQS from "./images/FoodFREQS.png";
 import gitThatCurrency from "./images/gitThatCurrency.png";
 // import taskManager from "../images/task-manager.png";
@@ -42,8 +42,8 @@ const Portfolio = () => {
         <img className="portfolio-image-popupbox" src={FoodFREQS} alt="FoodFREQS" />
         <p>We decided to make an application for people strongly influenced by
 					the culinary world. Using this application, the user will be able to
-					create a profile, search recipes they want to cook frequently, save
-					them to their profile and interact with other FoodFREQS.</p>
+					create a profile, search recipes and save
+					them to their profile for a later use they will also be able to interact with other FoodFREQS.</p>
         <b>Heroku:</b> <a className="hyper-link" onClick={() => window.open("https://vast-sierra-04127.herokuapp.com/profile", "_blank")}>https://vast-sierra-04127.herokuapp.com/profile</a>
         <br />
         <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/wjimh314/foodFREQS", "_blank")}>https://github.com/wjimh314/foodFREQS</a>
