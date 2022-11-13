@@ -19,7 +19,7 @@ const Portfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={TheBlackBook} alt="TheBlackBox." />
-       <p> We created an application to give prospective developers a handy resource to connect with other established developers and maintain an index of code snippets, terminology, and concepts to quickly reference. user will create a profile and be able to add comments to a selection of various basic topics. we will also give them a way to create their own snippets that other users can leave comments on.			</p>
+       <p> The goal of this application is to give prospective developers a handy resource to connect with other established developers and maintain an index of code snippets, terminology, and concepts to quickly reference. user will create a profile and be able to add comments to a selection of various basic topics. we will also give them a way to create their own snippets that other users can leave comments on.			</p>
         <b>Heroku:</b> <a className="hyper-link" onClick={() => window.open("https://floating-refuge-15851.herokuapp.com/")}>https://floating-refuge-15851.herokuapp.com/</a>
       </>
     )

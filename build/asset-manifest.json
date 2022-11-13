@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/new_portfolio4/static/css/main.88b6e8ba.css",
-    "main.js": "/new_portfolio4/static/js/main.0921d9f6.js",
+    "main.css": "/new_portfolio4/static/css/main.109fe144.css",
+    "main.js": "/new_portfolio4/static/js/main.e2fb4795.js",
     "static/js/787.7d2b5ecc.chunk.js": "/new_portfolio4/static/js/787.7d2b5ecc.chunk.js",
     "static/media/FoodFREQS.png": "/new_portfolio4/static/media/FoodFREQS.7fcc1272ccb3ea54c0c5.png",
     "static/media/TheBlackBook.png": "/new_portfolio4/static/media/TheBlackBook.4ef9cde008e95d32908a.png",
@@ -10,12 +10,12 @@
     "static/media/HeaderLogo.jpg": "/new_portfolio4/static/media/HeaderLogo.a8ede24acb8d1b8e5840.jpg",
     "static/media/logo.png": "/new_portfolio4/static/media/logo.fbd5f9e8b2578706b6a2.png",
     "index.html": "/new_portfolio4/index.html",
-    "main.88b6e8ba.css.map": "/new_portfolio4/static/css/main.88b6e8ba.css.map",
-    "main.0921d9f6.js.map": "/new_portfolio4/static/js/main.0921d9f6.js.map",
+    "main.109fe144.css.map": "/new_portfolio4/static/css/main.109fe144.css.map",
+    "main.e2fb4795.js.map": "/new_portfolio4/static/js/main.e2fb4795.js.map",
     "787.7d2b5ecc.chunk.js.map": "/new_portfolio4/static/js/787.7d2b5ecc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88b6e8ba.css",
-    "static/js/main.0921d9f6.js"
+    "static/css/main.109fe144.css",
+    "static/js/main.e2fb4795.js"
   ]
 }
